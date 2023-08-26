@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation"
 
+import React from "react"
+
 export const dynamicParams = true;
 
 export async function generateStaticParams(){
